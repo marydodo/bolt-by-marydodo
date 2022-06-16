@@ -12,6 +12,9 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ 
+REMEMBER TO ADD #define RGBLIGHT_LAYERS in your config.h file
+ 
  */
 #include QMK_KEYBOARD_H
 
@@ -49,6 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 // ~~~~~~~~ LIGHTING LAYERS ~~~~~~~~
+// REMEMBER TO ADD #define RGBLIGHT_LAYERS in your config.h file
 
 // Light Bolt logo when caps lock is active. Hard to ignore!
 const rgblight_segment_t PROGMEM capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
