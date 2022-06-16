@@ -3,6 +3,7 @@
 ### Included:
   * Entire Bolt folder
     * Inclues `#define RGBLIGHT_LAYERS` in your `config.h` file
+    * All other default files from the `bolt/` [QMK repository](https://github.com/qmk/qmk_firmware)
   * My personal layers (four)
     * [0] alpha main layer
     * [1] number and shifted symbols
