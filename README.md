@@ -22,4 +22,4 @@
 
 ## IMPORTANT:
 ### If you have custom keymaps in your `qmk_firmware/keyboards/lazydesigners/bolt/` folder, please take care when downloading/importing this folder into your machin, all your files may be replaced. 
-### If you have custom  code in  your `config.h` , just add `#define RGBLIGHT_LAYERS` in your `config.h` file and the `marydodo/` folder where my `keymap.c` exists.
+### If you have custom  code in  your `config.h` , remember to add `#define RGBLIGHT_LAYERS` in your `config.h` file if you are only downloading/importing the `marydodo/` folder or just my `keymap.c` file.
