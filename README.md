@@ -11,6 +11,11 @@
     * Code to light underglow only
     * Code to light all LEDs on the board
 
+
+![bolttyping_AdobeExpress](https://user-images.githubusercontent.com/56741532/174154795-23b55729-2043-4030-9739-87270d8c5d12.gif)
+
+
+
 #### This layout includes lighting layers for layers 1-3. Please read comments inside the `keymap.c` file for more information on the code used and how to adjust the lighting layers to light up underglow only, lightning bolt logo only, or all LEDs on the board. 
 
 #### For base information about QMK lighting layers, please see the offical [QMK RBG Lighting Layers documentation.](https://docs.qmk.fm/#/feature_rgblight?id=lighting-layers)
