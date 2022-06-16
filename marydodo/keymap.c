@@ -54,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // ~~~~~~~~ LIGHTING LAYERS ~~~~~~~~
 // REMEMBER TO ADD #define RGBLIGHT_LAYERS in your config.h file
 
-// Light Bolt logo when caps lock is active. Hard to ignore!
+// Light Bolt logo when CAPS LOCK is active. Hard to ignore!
 const rgblight_segment_t PROGMEM capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {9, 4, HSV_RED}       // Light up only lighning bolt
 );
