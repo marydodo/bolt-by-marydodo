@@ -1,10 +1,7 @@
 # marydodo custom Bolt layout with rgb layers
 ## Hello there! This is my personal keymap for the Lazydesigners' Bolt keyboard. 
 
-### Included:
-  * Entire Bolt folder
-    * Inclues `#define RGBLIGHT_LAYERS` in your `config.h` file
-    * All other default files from the `bolt/` [QMK repository](https://github.com/qmk/qmk_firmware)
+### Included in `keymap.c` file
   * My personal layers (four)
     * [0] alpha main layer
     * [1] number and shifted symbols
@@ -22,8 +19,7 @@
 #### For basic color choices, please see the official [QMK RGB Lighting colors documentation](https://docs.qmk.fm/#/feature_rgblight?id=colors)
 
 ## IMPORTANT: 
-### If you have custom keymaps in your `qmk_firmware/keyboards/lazydesigners/bolt/` folder, please take care when pulling this folder into your machine as it will replace your current keymaps and `config.h` file. 
-### If you have custom  code in  your `config.h` , just add `#define RGBLIGHT_LAYERS` in your `config.h` file and the `marydodo/` folder where my `keymap.c` exists.
+### Add `config.h` , just add `#define RGBLIGHT_LAYERS` in your `config.h` file if you are only downloading/importing the `marydodo/` folder or just my `keymap.c` file.
 
 ---
 
