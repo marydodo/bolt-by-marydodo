@@ -20,6 +20,6 @@
 
 #### For basic color choices, please see the official [QMK RGB Lighting colors documentation](https://docs.qmk.fm/#/feature_rgblight?id=colors)
 
-## IMPORTANT: 
-### If you have custom keymaps in your `qmk_firmware/keyboards/lazydesigners/bolt/` folder, please take care when pulling this folder into your machine as it will replace your current keymaps and `config.h` file. 
+## IMPORTANT:
+### If you have custom keymaps in your `qmk_firmware/keyboards/lazydesigners/bolt/` folder, please take care when downloading/importing this folder into your machin, all your files may be replaced. 
 ### If you have custom  code in  your `config.h` , just add `#define RGBLIGHT_LAYERS` in your `config.h` file and the `marydodo/` folder where my `keymap.c` exists.
