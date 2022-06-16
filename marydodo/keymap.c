@@ -56,15 +56,15 @@ const rgblight_segment_t PROGMEM capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
 );
 // Light Bolt logo when keyboard layer 1 is active
 const rgblight_segment_t PROGMEM num_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {9, 4, HSV_BLUE}      // Light up only lighning bolt
+    {9, 4, HSV_BLUE}      // Light up only lighning bolt for layer 1
 );
 // Light Bolt logo when keyboard layer 2 is active
 const rgblight_segment_t PROGMEM fnreset_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {9, 4, HSV_GREEN}     // Light up only lighning bolt
+    {9, 4, HSV_GREEN}     // Light up only lighning bolt for layer 2
 );
 // Light Bolt logo when keyboard layer 3 is active
 const rgblight_segment_t PROGMEM shift_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {9, 4, HSV_YELLOW}     // Light up only lighning bolt
+    {9, 4, HSV_YELLOW}     // Light up only lighning bolt for layer 3
 );
 
 // To light up underglow only, use {0, 9, COLOR}
