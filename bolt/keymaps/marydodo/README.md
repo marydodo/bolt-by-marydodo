@@ -1,4 +1,4 @@
-# marydodo customm layout with rgb layers
+# marydodo custom Bolt layout with rgb layers
 ## Hello there! This is my personal keymap for the Lazydesigners' Bolt keyboard. 
 
 ### Included:
