@@ -16,7 +16,9 @@
 
 #### This layout includes lighting layers for layers 1-3. Please read comments for more information on the code used. 
 
-#### For base information about QMK lighting layers, please see the offical [QMK Lighting Layers documentation.](https://docs.qmk.fm/#/feature_rgblight?id=lighting-layers)
+#### For base information about QMK lighting layers, please see the offical [QMK RBG Lighting Layers documentation.](https://docs.qmk.fm/#/feature_rgblight?id=lighting-layers)
+
+#### For basic color choices, please see the official [QMK RGB Lighting colors documentation](https://docs.qmk.fm/#/feature_rgblight?id=colors)
 
 ## IMPORTANT: 
 ### If you have custom keymaps in your `qmk_firmware/keyboards/lazydesigners/bolt/` folder, please take care when pulling this folder into your machine as it will replace your current keymaps and `config.h` file. 
