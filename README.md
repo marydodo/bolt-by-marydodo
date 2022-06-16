@@ -1,9 +1,6 @@
-## Hello there! This is my personal keymap for the Lazydesigners' Bolt keyboard. 
+# Hello there! This is my personal keymap for the Lazydesigners' Bolt keyboard. 
 
-### Included:
-  * Entire Bolt folder
-    * Inclues `#define RGBLIGHT_LAYERS` in your `config.h` file
-    * All other default files from the `bolt/` [QMK repository](https://github.com/qmk/qmk_firmware)
+### Included in my custom `keymap.c`
   * My personal layers (four)
     * [0] alpha main layer
     * [1] number and shifted symbols
@@ -14,7 +11,7 @@
     * Code to light underglow only
     * Code to light all LEDs on the board
 
-#### This layout includes lighting layers for layers 1-3. Please read comments for more information on the code used. 
+#### This layout includes lighting layers for layers 1-3. Please read comments inside the `keymap.c` file for more information on the code used and how to adjust the lighting layers to light up underglow only, lightning bolt logo only, or all LEDs on the board. 
 
 #### For base information about QMK lighting layers, please see the offical [QMK RBG Lighting Layers documentation.](https://docs.qmk.fm/#/feature_rgblight?id=lighting-layers)
 
