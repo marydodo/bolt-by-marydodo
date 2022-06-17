@@ -1,3 +1,7 @@
+## IMPORTANT:
+
+### Remember to add `#define RGBLIGHT_LAYERS` in your `config.h` file.
+
 Make example for this custom keyboard layout:
 
     make lazydesigners/bolt:marydodo 
