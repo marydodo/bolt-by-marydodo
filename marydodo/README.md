@@ -12,4 +12,8 @@ Flashing example for this custom keyboard layout:
 
     make lazydesigners/bolt:marydodo:flash
 
+QMK
 
+    cd ~/qmk_firmware/keyboards/lazydesigners/bolt/keymaps/marydodo 
+    
+    qmk compile
