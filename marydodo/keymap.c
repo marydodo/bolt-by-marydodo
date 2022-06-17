@@ -15,8 +15,6 @@
  
 ~~~~ KEYMAP BY MARYDODO https://github.com/marydodo ~~~~~~
  
-REMEMBER TO ADD #define RGBLIGHT_LAYERS in your config.h file
- 
  */
 #include QMK_KEYBOARD_H
 
