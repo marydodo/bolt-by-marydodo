@@ -48,7 +48,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                KC_NO,   S(KC_Z), S(KC_X), S(KC_C), S(KC_V), S(KC_B),            S(QUES), S(KC_N), S(KC_M), S(KC_COMM), S(KC_DOT),  QUES,    S(KC_ENT),
                KC_LCTL, KC_LALT, KC_LGUI, KC_NO,                                S(KC_SCLN), KC_NO,                     KC_LEFT,    KC_DOWN, KC_RGHT
 	    ),
-
 };
 
 // ~~~~~~~~ LIGHTING LAYERS ~~~~~~~~
