@@ -12,8 +12,7 @@
     * Code to light all LEDs on the board
 
 
-![bolttyping_AdobeExpress](https://user-images.githubusercontent.com/56741532/174154795-23b55729-2043-4030-9739-87270d8c5d12.gif)
-
+![ezgif com-gif-maker(2)](https://user-images.githubusercontent.com/56741532/174405805-63ade057-e5d4-4930-af3f-dd66d1c90f07.gif)
 
 
 This layout includes lighting layers for CAPS LOCK and for layers 1-3. Please read comments inside the `keymap.c` file for more information on the code used and how to adjust the lighting layers to light up underglow only, lightning bolt logo only, or all LEDs on the board. 
