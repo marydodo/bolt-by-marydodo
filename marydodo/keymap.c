@@ -56,6 +56,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // ~~~~~~~~ LIGHTING LAYERS ~~~~~~~~
 // REMEMBER TO ADD #define RGBLIGHT_LAYERS in your config.h file
 
+// To light up underglow only, use {0, 9, COLOR}
+// To light up ALL LEDs including underglow and ligntning bolt logo, use {0, 13, COLOR}
+
 // Light Bolt logo when CAPS LOCK is active. Hard to ignore!
 const rgblight_segment_t PROGMEM capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {9, 4, HSV_RED}       // Light up only lighning bolt
@@ -72,9 +75,6 @@ const rgblight_segment_t PROGMEM fnreset_layer[] = RGBLIGHT_LAYER_SEGMENTS(
 const rgblight_segment_t PROGMEM shift_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {9, 4, HSV_YELLOW}     // Light up only lighning bolt for layer 3
 );
-
-// To light up underglow only, use {0, 9, COLOR}
-// To light up ALL LEDs including underglow and ligntning bolt logo, use {0, 13, COLOR}
 
 
 // Array of layers. Later layers take precedence
