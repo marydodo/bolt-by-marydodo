@@ -13,7 +13,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.'
  
-~~~~ KEYMAP BY MARYDODO https://github.com/marydodo ~~~~~~
+~~~~~~ KEYMAP BY MARYDODO https://github.com/marydodo ~~~~~~~~
  
  */
 #include QMK_KEYBOARD_H
