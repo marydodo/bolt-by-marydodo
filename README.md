@@ -28,6 +28,8 @@
 
 # About the Bolt
 
+[Info Source](https://github.com/jackytrabbit/qmk_firmware/tree/master/keyboards/lazydesigners/bolt)
+
 A 40% ergo keyboard designed and produced by [LAZYDESIGNERS](http://lazydesigners.cn).
 
 * Keyboard Maintainer: [LAZYDESIGNERS](https://github.com/jackytrabbit)
