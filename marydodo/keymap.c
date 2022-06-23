@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // Alpha Layer
     [0] = LAYOUT(
                KC_ESC,   KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,               KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
-               LT2_TAB,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,               KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
+               KC_TAB,   KC_A,    KC_S,    KC_D,    KC_F,    KC_G,               KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
                KC_LSFT,  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,               KC_SLSH, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_UP,   KC_ENT,
                KC_LCTL,  KC_LALT,                   KC_LGUI, MO(1),              KC_SPC,  MO(2),                     KC_LEFT, KC_DOWN, KC_RGHT
              ),
@@ -45,17 +45,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	       KC_NO,    KC_F11,  KC_F12, KC_NO,   KC_NO,  KC_NO,                RGB_TOG, RGB_RMOD, RGB_MOD, RGB_VAI, RGB_VAI, KC_NO, RESET,
 	       KC_NO,    KC_NO,                    KC_NO,  KC_NO,                KC_NO,   KC_NO,                        TT(4),   KC_NO, KC_NO
 	       ),
-// Shift Layer (used for lighting layer)
+// Shift Layer (only used for lighting layer) - can alternatively be used as an actual layer
     [3] = LAYOUT(
-	       KC_GRV,   S(KC_Q), S(KC_W), S(KC_E), S(KC_R), S(KC_T),            S(KC_Y), S(KC_U), S(KC_I), S(KC_O),    S(KC_P),    KC_BSPC,
-               KC_TAB,   S(KC_A), S(KC_S), S(KC_D), S(KC_F), S(KC_G),            S(KC_H), S(KC_J), S(KC_K), S(KC_L),    S(KC_SCLN), KC_ENT,
-               ALFRED,   S(KC_Z), S(KC_X), S(KC_C), S(KC_V), S(KC_B),            S(QUES), S(KC_N), S(KC_M), S(KC_COMM), S(KC_DOT),  QUES,    S(KC_ENT),
-               CLIPB,    KC_LALT,                   KC_LGUI, KC_NO,              KC_SPC,  KC_NO,                         KC_LEFT,    KC_DOWN, KC_RGHT
+	       KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+               KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+               KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+               KC_NO,   KC_NO,               KC_NO, KC_NO,                        KC_NO,  KC_NO,                     KC_NO, KC_NO, KC_NO
 	    ),
 // Gaming Toggle Layer (tap toggled)
     [4] = LAYOUT(
                  KC_ESC,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,               KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
-                 LT2_TAB,   KC_A,    KC_S,    KC_D,    KC_F,    KC_G,               KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
+                 KC_TAB,    KC_A,    KC_S,    KC_D,    KC_F,    KC_G,               KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
                  KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,               KC_SLSH, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_UP,   KC_ENT,
                  KC_LCTL,   KC_LALT,                   KC_LGUI, KC_SPC,             KC_SPC,  TT(4),                     KC_LEFT, KC_DOWN, KC_RGHT
                ),
