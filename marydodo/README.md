@@ -6,7 +6,7 @@
 
 ### Shift Layer and Shift Key
 
-This keymap includes a SHIFT Layer. The regular SHIFT key is baked into the ALPHA layer. You are free to use the actual layer if you want. The layer exists so that in the current ALPHA layer, the ligtning bolt will turn YELLOW when pressed. 
+This keymap includes a SHIFT Layer. The regular SHIFT key is baked into the ALPHA layer. You are free to use the actual layer if you want. The layer exists so that in the current ALPHA layer, the ligtning bolt will light up when pressed. 
 
 ### Lighting Layers
 This layout includes lighting layers for CAPS LOCK and for layers 1-3. Please read comments inside the `keymap.c` file for more information on the code used and how to adjust the lighting layers to light up underglow only, lightning bolt logo only, or all LEDs on the board. 
