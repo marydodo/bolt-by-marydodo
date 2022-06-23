@@ -1,4 +1,4 @@
-# Hello there! This is my personal keymap for the Lazydesigners' Bolt keyboard. 
+# My personal keymap for the Lazydesigners' Bolt keyboard. 
 
 ### Included in my custom `marydodo/keymap.c`
   * My personal layers (four)
