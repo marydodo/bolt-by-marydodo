@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
                KC_ESC,   KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,               KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
                LT2_TAB,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,               KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
-               KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,               KC_SLSH, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_UP,   KC_ENT,
+               KC_LSFT,  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,               KC_SLSH, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_UP,   KC_ENT,
                KC_LCTL,  KC_LALT,                   KC_LGUI, MO(1),              KC_SPC,  MO(2),                     KC_LEFT, KC_DOWN, KC_RGHT
              ),
 // Number and Shifted symbols
@@ -38,25 +38,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                KC_CAPS,  KC_6,    KC_7,   KC_8,    KC_9,   KC_0,                 QUES,     KC_BSPC,  KC_LCBR, KC_RCBR, KC_SLSH, QUES,  KC_NO,
                CLIPB,   ALFRED,                    KC_NO,  KC_NO,                KC_ENT,   KC_NO,                      KC_NO,   KC_NO, KC_NO
              ),
-// FN, RESET, RGB config layer
+// FN, RESET, RGB config layer, gaming layer (tap toggled)
     [2] = LAYOUT(
                KC_NO,    KC_F1,   KC_F2,  KC_F3,   KC_F4,  KC_F5,                KC_INS,  KC_DEL,   KC_HOME, KC_END,  KC_NO,   KC_NO,
-	             KC_NO,    KC_F6,   KC_F7,  KC_F8,   KC_F9,  KC_F10,               KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,   KC_NO,
-	             KC_NO,    KC_F11,  KC_F12, KC_NO,   KC_NO,  KC_NO,                RGB_TOG, RGB_RMOD, RGB_MOD, RGB_VAI, RGB_VAI, KC_NO, RESET,
-	             KC_NO,    KC_NO,                    KC_NO,  KC_NO,                KC_NO, KC_NO,                        TT(4),   KC_NO, KC_NO
+	       KC_NO,    KC_F6,   KC_F7,  KC_F8,   KC_F9,  KC_F10,               KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,   KC_NO,
+	       KC_NO,    KC_F11,  KC_F12, KC_NO,   KC_NO,  KC_NO,                RGB_TOG, RGB_RMOD, RGB_MOD, RGB_VAI, RGB_VAI, KC_NO, RESET,
+	       KC_NO,    KC_NO,                    KC_NO,  KC_NO,                KC_NO,   KC_NO,                        TT(4),   KC_NO, KC_NO
 	       ),
-// Shift Layer
+// Shift Layer (used for lighting layer)
     [3] = LAYOUT(
-	             KC_GRV,   S(KC_Q), S(KC_W), S(KC_E), S(KC_R), S(KC_T),            S(KC_Y), S(KC_U), S(KC_I), S(KC_O),    S(KC_P),    KC_BSPC,
+	       KC_GRV,   S(KC_Q), S(KC_W), S(KC_E), S(KC_R), S(KC_T),            S(KC_Y), S(KC_U), S(KC_I), S(KC_O),    S(KC_P),    KC_BSPC,
                KC_TAB,   S(KC_A), S(KC_S), S(KC_D), S(KC_F), S(KC_G),            S(KC_H), S(KC_J), S(KC_K), S(KC_L),    S(KC_SCLN), KC_ENT,
                ALFRED,   S(KC_Z), S(KC_X), S(KC_C), S(KC_V), S(KC_B),            S(QUES), S(KC_N), S(KC_M), S(KC_COMM), S(KC_DOT),  QUES,    S(KC_ENT),
-               CLIPB,    KC_LALT,                   KC_LGUI, KC_NO,              KC_SPC, KC_NO,                         KC_LEFT,    KC_DOWN, KC_RGHT
+               CLIPB,    KC_LALT,                   KC_LGUI, KC_NO,              KC_SPC,  KC_NO,                         KC_LEFT,    KC_DOWN, KC_RGHT
 	    ),
-// Gaming Toggle Layer
+// Gaming Toggle Layer (tap toggled)
     [4] = LAYOUT(
                  KC_ESC,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,               KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
                  LT2_TAB,   KC_A,    KC_S,    KC_D,    KC_F,    KC_G,               KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
-                 KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,               KC_SLSH, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_UP,   KC_ENT,
+                 KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,               KC_SLSH, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_UP,   KC_ENT,
                  KC_LCTL,   KC_LALT,                   KC_LGUI, KC_SPC,             KC_SPC,  TT(4),                     KC_LEFT, KC_DOWN, KC_RGHT
                ),
 
@@ -95,7 +95,7 @@ const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
     num_layer,    // RGB layer state 1 - Overrides caps lock layer
     fnreset_layer,  // RGB layer state 2 - Overrides other layers
     shift_layer,    // RGB layer state 3 - Overrides other layers
-    gaming_layer // RGB layer state 4 - Overrides other layers
+    gaming_layer // RGB layer state 4 - Overrides all other layers
 
 );
 
@@ -118,7 +118,7 @@ bool led_update_user(led_t led_state) {
     return true;
 }
 
-// Lights up the ligtning bolt using the shift_layer RGB layer
+// Lights up the ligtning bolt using the shift_layer RGB_LAYER_SEGMENTS
 bool process_record_user (uint16_t keycode, keyrecord_t *record) {
     // when shift is pressed or released, toggle the state of the lighting
     if (keycode == KC_LSFT) {
