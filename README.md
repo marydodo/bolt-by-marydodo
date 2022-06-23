@@ -15,6 +15,9 @@
 
 ![ezgif com-gif-maker(2)](https://user-images.githubusercontent.com/56741532/174405805-63ade057-e5d4-4930-af3f-dd66d1c90f07.gif)
 
+### Shift Layer and Shift Key
+
+This keymap includes a SHIFT Layer. You are free to use the actual layer if you want. The layer exists so that in the current ALPHA layer, the ligtning bolt will turn YELLOW when pressed. 
 
 ### Lighting Layers
 This layout includes lighting layers for CAPS LOCK and for layers 1-3. Please read comments inside the `keymap.c` file for more information on the code used and how to adjust the lighting layers to light up underglow only, lightning bolt logo only, or all LEDs on the board. 
