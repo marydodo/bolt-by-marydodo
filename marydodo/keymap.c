@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	       KC_GRV,   S(KC_Q), S(KC_W), S(KC_E), S(KC_R), S(KC_T),            S(KC_Y), S(KC_U), S(KC_I), S(KC_O),    S(KC_P),    KC_BSPC,
                SHFTTAB,   S(KC_A), S(KC_S), S(KC_D), S(KC_F), S(KC_G),            S(KC_H), S(KC_J), S(KC_K), S(KC_L),    S(KC_SCLN), S(KC_QUOT),
                KC_LSFT,  S(KC_Z), S(KC_X), S(KC_C), S(KC_V), S(KC_B),            S(QUES), S(KC_N), S(KC_M), S(KC_COMM), S(KC_DOT),  QUES,    S(KC_ENT),
-               CLIPB,  ALFRED,                   KC_LGUI, KC_NO,              KC_SPC,  KC_NO,                         KC_LEFT,   KC_DOWN, KC_RGHT
+               CLIPB,  ALFRED,                   KC_LGUI, KC_NO,              KC_SPC,  S(KC_BSLS),                         KC_LEFT,   KC_DOWN, KC_RGHT
 	    ),
 // Gaming Toggle Layer (tap toggled)
     [_GAMING] = LAYOUT(
