@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                KC_GRV,   KC_EXLM, KC_AT,  KC_HASH, KC_DLR, KC_PERC,              KC_CIRC,  KC_AMPR,  KC_ASTR, KC_LPRN, KC_RPRN, KC_BSPC,
                KC_TILD,  KC_1,    KC_2,   KC_3,    KC_4,   KC_5,                 KC_UNDS,  KC_MINS,  KC_EQL,  KC_LBRC, KC_RBRC, S(KC_QUOT),
                KC_CAPS,  KC_6,    KC_7,   KC_8,    KC_9,   KC_0,                 QUES,     S(KC_EQL),  KC_LCBR, KC_RCBR, KC_SLSH, QUES,  KC_BSLS,
-               CLIPB,  ALFRED,                  KC_NO,  KC_NO,                KC_ENT,   KC_NO,                      KC_NO,   KC_NO, KC_NO
+               CLIPB,  ALFRED,                  KC_NO,  KC_NO,                KC_ENT,   S(KC_BSLS),                      KC_NO,   KC_NO, KC_NO
              ),
 // FN, RESET, RGB config layer, gaming layer (tap toggled)
     [_CONFIG] = LAYOUT(
