@@ -2,11 +2,11 @@
 
 ### Included in my custom `marydodo/keymap.c`
   * My personal layers (four)
-    * [0] alpha main layer
-    * [1] number and shifted symbols
-    * [2] FN and reset layer
-    * [3] shift layer
-    * [4] gaming layer
+    * [QWERTY] alpha main layer
+    * [SYMBOLS] number and shifted symbols
+    * [CONFIG] FN and reset layer
+    * [SHIFTED] shift layer
+    * [GAMING] gaming layer
   * Lighting layers
     * Code to light bolt only
     * Code to light underglow only
@@ -17,7 +17,7 @@
 
 ### Shift Layer and Shift Key
 
-This keymap includes a SHIFT Layer. The regular SHIFT key is baked into the ALPHA layer. You are free to use the actual layer if you want. The layer exists so that in the current ALPHA layer, the ligtning bolt will light up when pressed.  
+This keymap includes a SHIFT **Layer**. The regular SHIFT key is baked into the ALPHA layer. You are free to use the actual layer if you want. The layer exists so that in the current ALPHA layer, the ligtning bolt will light up when pressed.  
 
 ### Lighting Layers
 This layout includes lighting layers for CAPS LOCK and for layers 1-3. Please read comments inside the `keymap.c` file for more information on the code used and how to adjust the lighting layers to light up underglow only, lightning bolt logo only, or all LEDs on the board. 
