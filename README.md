@@ -1,7 +1,7 @@
 # My personal keymap for the Lazydesigners' Bolt keyboard. 
 
 ### Included in my custom `marydodo/keymap.c`
-  * My personal layers (four)
+  * My personal layers
     * [QWERTY] alpha main layer
     * [SYMBOLS] number and shifted symbols
     * [CONFIG] FN and reset layer
