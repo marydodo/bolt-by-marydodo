@@ -17,10 +17,14 @@
 
  */
 #include QMK_KEYBOARD_H
-#define CLIPB LCTL(LSFT(KC_C))
-#define ALFRED LCTL(KC_SPC)
+#define CLIPB LCTL(LSFT(KC_C)) 
+      // Personal shortcut
+#define ALFRED LCTL(KC_SPC) 
+      // Personal shortcut
 #define QUES LSFT(KC_SLSH)
+     // Question mark 
 #define SHFTTAB LSFT(KC_TAB)
+     // Shift + tab
 
 enum layer_names {
     _QWERTY,
